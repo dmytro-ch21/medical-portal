@@ -14,6 +14,9 @@ RUN npm run build
 RUN npm prune --production
 
 ENV NODE_ENV=production
+ENV DB_PATH=/app/data/portal.db
+
+RUN mkdir -p /app/data
 
 EXPOSE 3001
 

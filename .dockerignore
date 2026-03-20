@@ -5,3 +5,4 @@ dist
 server/portal.db
 server/portal.db-shm
 server/portal.db-wal
+data/

@@ -1,16 +1,16 @@
 FROM node:22-alpine
 
+# Build tools needed for better-sqlite3 (native module)
+RUN apk add --no-cache python3 make g++
+
 WORKDIR /app
 
-# Install dependencies
 COPY package*.json ./
 RUN npm ci
 
-# Copy source and build frontend
 COPY . .
 RUN npm run build
 
-# Remove dev dependencies
 RUN npm prune --production
 
 ENV NODE_ENV=production

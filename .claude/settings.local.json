@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(curl -s http://localhost:3001/api/scripts)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f''''{len\\(d\\)} checklist sections''''\\)\")",
+      "Bash(curl -sv http://localhost:3001/api/scripts)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f''''{len\\(d\\)} scripts, first: {d[0][\"\"title\"\"] if d else \"\"none\"\"}''''\\)\")",
+      "Bash(npm run:*)",
+      "Bash(curl -s -b /tmp/cookies.txt http://localhost:3001/api/content echo \"\" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/specialists)",
+      "Bash(curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/specialists)",
+      "Bash(jq -r '.username' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/scripts \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/scripts)",
+      "Bash(jq 'length' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/checklist \\(sections\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/checklist)",
+      "Bash(jq 'length' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/patients \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/patients)",
+      "Bash(jq 'length' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/users \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/users)",
+      "Bash(jq 'length' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/specialists \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/specialists)",
+      "Bash(jq 'length' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/clinic \\(keys\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/clinic)",
+      "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/prices \\(keys\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/prices)",
+      "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/reference \\(keys\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/reference)",
+      "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/coord_rules \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/coord_rules)"
+    ]
+  }
+}

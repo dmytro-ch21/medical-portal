@@ -17,7 +17,10 @@
       "Bash(jq 'length' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/clinic \\(keys\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/clinic)",
       "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/prices \\(keys\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/prices)",
       "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/reference \\(keys\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/reference)",
-      "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/coord_rules \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/coord_rules)"
+      "Bash(jq 'keys' __NEW_LINE_5cfd0d2327d23e13__ echo -n \"GET /api/content/coord_rules \\(count\\): \" curl -s -b /tmp/cookies.txt http://localhost:3001/api/content/coord_rules)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }

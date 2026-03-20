@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Internal docs
+change.md
+
 # SQLite database
 server/portal.db
 

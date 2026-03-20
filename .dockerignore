@@ -1,0 +1,7 @@
+node_modules
+dist
+.git
+.env
+server/portal.db
+server/portal.db-shm
+server/portal.db-wal

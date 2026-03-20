@@ -17,6 +17,8 @@ change.md
 
 # SQLite database
 server/portal.db
+server/portal.db-shm
+server/portal.db-wal
 
 # Environment variables
 .env

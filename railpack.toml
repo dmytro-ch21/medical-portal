@@ -1,5 +1,2 @@
 [deploy]
 startCommand = "node server/index.js"
-
-[build]
-buildCommand = "npm install && npm run build"
